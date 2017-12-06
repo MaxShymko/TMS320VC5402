@@ -1,0 +1,75 @@
+;
+;
+
+			.def _c_int00
+			.text
+_c_int00:
+			LD #X, DP
+			SSBX SMX
+			xor A,A
+			dld X,A
+			nop
+			add Y,A
+			dst A,Z
+
+			LD #X, DP
+			RSBX SMX
+			xor A,A
+			dld X,A
+			nop
+			add Y,A
+			dst A,Z
+			
+			nop
+			nop
+			nop
+
+			.data
+			
+X:			.long 0xE3451678
+Y:			.word 0xA247
+Z:			.long 0
+			
+			.end
+
+
+
+
+
+
+;
+
+			.def _c_int00
+			.text
+_c_int00:
+			LD #X, DP
+			;SSBX SXM
+			;RSBX SXM
+			;2SSBX OVM
+			RSBX OVM
+			xor A,A
+			dld X,A
+			nop
+			;3ABS A
+			NEG A
+			;add Y,A
+			dst A,Z
+
+			
+			nop
+			nop
+			nop
+
+			.data
+			
+;X:			.long 0xE345C678
+;Y:			.word 0x5724
+;1_2X:			.long 0xE3451678
+;1_2Y:			.word 0xA247
+;2X:			.long 0x7FFFA487
+;2Y:			.word 0x98D4
+;3X:			.long 0x7ABC4567
+X:			.long 0x80000000
+Z:			.long 0
+			
+			.end

@@ -1,0 +1,16 @@
+------------------------  21_09_2017_lab1.pjt - Debug  ------------------------
+"c:\ti\c5400\cgtools\bin\cl500" -g -q -fr"C:/ti/myprojects/lab1/21_09_2017_lab1/Debug" -d"_DEBUG" -@"Debug.lkf" "lab1_1.asm"
+<lab1_1.asm>
+"lab1_1.asm", ERROR!   at line 6: [E0003] Invalid immediate or shift value
+				SSBX SMX
+
+"lab1_1.asm", ERROR!   at line 14: [E0003] Invalid immediate or shift value
+				RSBX SMX
+
+"lab1_1.asm", ERROR!   at EOF: [E0300] The following symbols are undefined:
+  SMX
+
+Errors in Source - Assembler Aborted
+
+Build Complete,
+  4 Errors, 0 Warnings, 0 Remarks.
