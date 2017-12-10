@@ -1,5 +1,5 @@
 ------------------------------  lab2.pjt - Debug  ------------------------------
-"c:\ti\c5400\cgtools\bin\cl500" -g -q -fr"C:/ti/myprojects/lab2/Debug" -d"_DEBUG" -@"Debug.lkf" "mainNoSub.asm"
+"c:\ti\c5400\cgtools\bin\cl500" -g -q -fr"C:/ti/myprojects/TMS320VC5402/lab2/Debug" -d"_DEBUG" -@"Debug.lkf" "mainNoSub.asm"
 <mainnosub.asm>
 
 Warning: The project has no cmd file while the Text Linker is selected
